@@ -1,0 +1,377 @@
+/* Global Styling */
+
+body {
+
+    font-family: 'Funnel Display', sans-serif, 'PT Serif', serif; /* Roboto + complementary font */
+    
+    font-size: 16px;
+    
+    line-height: 1.5;
+    
+    color: #333;
+    
+    background-color: royalblue;
+    
+    margin: 0;
+    
+    padding: 0;
+    
+    }
+    
+    
+    /* Header Styling */
+    
+    header {
+    
+    background-color: #333; /* Dark background for header */
+    
+    color: white;
+    
+    padding: 20px;
+    
+    text-align: center;
+    
+    }
+    
+    
+    header h1 {
+    
+    font-size: 3.5em;
+    
+    margin: 0;
+    
+    color: #402FC1; /* Gold text for header */
+    
+    }
+    
+    
+    header h2 {
+    
+    font-size: 1.5em;
+    
+    margin-top: 20px;
+    
+    font-family: 'PT Serif', serif;
+    
+    }
+    
+    
+    /* Navigation Styling */
+    
+    nav {
+    
+    background-color:#402FC1; /* Gold navigation background */
+    
+    text-align: center;
+    
+    padding: 10px 0;
+    
+    }
+    
+    
+    nav ul {
+    
+    list-style-type: none;
+    
+    padding: 0;
+    
+    margin: 0;
+    
+    }
+    
+    
+    nav ul li {
+    
+    display: inline-block;
+    
+    margin-right: 20px;
+    
+    }
+    
+    
+    nav ul li a {
+    
+    text-decoration: none;
+    
+    color: white;
+    
+    font-size: 1.2em;
+    
+    font-weight: bold;
+    
+    }
+    
+    
+    nav ul li a:hover {
+    
+    color: #6a1b9a; /* Purple on hover */
+    
+    text-decoration: underline;
+    
+    }
+    
+    
+    /* Main Content Styling */
+    
+    main {
+    
+    padding: 40px 20px;
+    
+    text-align: center;
+    
+    background-color: #ffffff;
+    
+    }
+    
+    
+    /* Call-to-Action Section */
+    
+    .call-to-action {
+    
+    background-color: #39310E; /* Purple background for call to action */
+    
+    color: white;
+    
+    padding: 40px;
+    
+    margin: 20px 0;
+    
+    }
+    
+    
+    .call-to-action h2 {
+    
+    font-size: 2.5em;
+    
+    }
+    
+    
+    .call-to-action a {
+    
+    text-decoration: none;
+    
+    background-color:#402FC1; /* Gold for button */
+    
+    color: white;
+    
+    padding: 15px 30px;
+    
+    border-radius: 5px;
+    
+    font-size: 1.2em;
+    
+    }
+    
+    
+    .call-to-action a:hover {
+    
+    background-color: #333;
+    
+    transition: 0.3s;
+    
+    }
+    
+    
+    /* Footer Styling */
+    
+    footer {
+    
+    background-color: #333;
+    
+    color: white;
+    
+    text-align: center;
+    
+    padding: 20px 0;
+    
+    font-size: 1em;
+    
+    }
+    
+    
+    footer a {
+    
+    text-decoration: none;
+    
+    color: #402FC1; /* Gold links */
+    
+    }
+    
+    
+    footer a:hover {
+    
+    text-decoration: underline;
+    
+    }
+    
+    
+    /* Section Styling */
+    
+    section {
+    
+    background-color: #ffffff;
+    
+    padding: 50px 20px;
+    
+    }
+    
+    
+    section h2 {
+    
+    font-size: 2.5em;
+    
+    color: #39310E; /* Purple */
+    
+    margin-bottom: 30px;
+    
+    }
+    
+    
+    section p {
+    
+    font-size: 1.2em;
+    
+    color: #333;
+    
+    line-height: 1.6;
+    
+    }
+    
+    
+    /* Social Media Section Styling */
+    
+    .social-media {
+    
+    text-align: center;
+    
+    margin: 50px 0;
+    
+    }
+    
+    
+    .social-media h2 {
+    
+    font-size: 2.5em;
+    
+    color: #39310E; /* Purple */
+    
+    }
+    
+    
+    .social-media ul {
+    
+    list-style-type: none;
+    
+    padding: 0;
+    
+    }
+    
+    
+    .social-media ul li {
+    
+    display: inline-block;
+    
+    margin: 10px;
+    
+    }
+    
+    
+    .social-media ul li a {
+    
+    text-decoration: none;
+    
+    background-color: #402FC1; /* Gold button */
+    
+    color: white;
+    
+    padding: 15px 25px;
+    
+    border-radius: 5px;
+    
+    font-size: 1.2em;
+    
+    }
+    
+    
+    .social-media ul li a:hover {
+    
+    background-color: #39310E; /* Purple button hover effect */
+    
+    transition: background-color 0.3s ease-in-out;
+    
+    }
+    
+    
+    /* About Section Styling */
+    
+    .about {
+    
+    text-align: center;
+    
+    margin: 40px 0;
+    
+    }
+    
+    
+    .about h2 {
+    
+    font-size: 2.5em;
+    
+    color: #39310E; /* Purple */
+    
+    }
+    
+    
+    .about p {
+    
+    font-size: 1.4em;
+    
+    color: #333;
+    
+    line-height: 1.6;
+    
+    }
+    
+    
+    /* Image Styling */
+    
+    img {
+    
+    max-width: 100%;
+    
+    height: auto;
+    
+    border-radius: 15px;
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    
+    }
+    
+    
+    /* Media Queries for Responsiveness */
+    
+    @media screen and (max-width: 768px) {
+    
+    header h1 {
+    
+    font-size: 2.5em; /* Smaller header text */
+    
+    }
+    
+    
+    .call-to-action a {
+    
+    padding: 12px 25px;
+    
+    }
+    
+    
+    .social-media ul li a {
+    
+    font-size: 1em;
+    
+    padding: 12px 20px;
+    
+    }
+    
+    }
